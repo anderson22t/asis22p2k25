@@ -81,6 +81,7 @@ namespace CapaVista_Menu
             this.identificacionAlumnoToolStripMenuItem.Name = "identificacionAlumnoToolStripMenuItem";
             this.identificacionAlumnoToolStripMenuItem.Size = new System.Drawing.Size(238, 26);
             this.identificacionAlumnoToolStripMenuItem.Text = "Identificacion Alumno";
+            this.identificacionAlumnoToolStripMenuItem.Click += new System.EventHandler(this.identificacionAlumnoToolStripMenuItem_Click);
             // 
             // salirToolStripMenuItem
             // 

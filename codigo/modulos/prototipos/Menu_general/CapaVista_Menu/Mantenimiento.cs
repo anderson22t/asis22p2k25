@@ -135,5 +135,12 @@ namespace CapaVista_Menu
                 return;
             }
         }
+
+        private void btnReporte_Click(object sender, EventArgs e)
+        {
+            FrmReporte reporte = new FrmReporte();
+            reporte.Show();
+
+        }
     }
 }
