@@ -37,5 +37,12 @@ namespace CapaVista_Menu
             Mantenimiento frm = new Mantenimiento();
             frm.Show();
         }
+
+        private void identificacionAlumnoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Nombre nombre = new Nombre();
+            nombre.Show();
+
+        }
     }
 }

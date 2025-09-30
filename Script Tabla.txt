@@ -1,0 +1,6 @@
+CREATE TABLE BODEGA (
+	codigo_bodega VARCHAR(5),
+    nombre_bodega VARCHAR(60),
+    estatus_bodega VARCHAR(1),
+    primary key (codigo_bodega)
+);
